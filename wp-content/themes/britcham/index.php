@@ -1,4 +1,6 @@
- <?php get_header();?>
+<?php get_header(); ?>
+
+   <!-- Image Carousel -->
 
     <div
       id="carousel"
@@ -6,7 +8,7 @@
       data-ride="carousel"
       data-interval="65000"
     >
-     
+      <!-- Carousel Content -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/carousel/macau3.jpg" alt="macau" class="w-100 bgpics" />
@@ -36,7 +38,9 @@
           <img src="img/carousel/macau1.jpg" alt="" class="w-100" />
         </div>
       </div>
-      
+      <!-- End Carousel Content -->
+
+      <!-- Previous & Next Buttons -->
       <a
         href="#carousel"
         class="carousel-control-prev"
@@ -55,8 +59,11 @@
         <span class="fas fa-chevron-right fa-2x"></span>
       </a>
 
+      <!-- End Previous & Next Buttons -->
     </div>
-    
+    <!-- End Image Carousel -->
+
+    <!-- Main Page Heading -->
     <div class="col-12 text-center mt-md-5 mb-4">
       <h3 class="text-dark pt-4">
         Connecting businesses with all that is British
@@ -66,7 +73,9 @@
       <p class="lead"></p>
     </div>
 
-   <div class="container justify-content-between">
+    <!-- Three Column Section -->
+
+    <div class="container justify-content-between">
       <div class="row my-md-5 pt-3">
         <div class="col-md-6 pr-md-3 pt-md-4 container1">
           <a href="membership.html" class="link">
@@ -147,7 +156,11 @@
           </div>
         </div>
 
-        
+        <!-- End Three Column Section -->
+
+        <!-- Emoji Navbar First -->
+
+        <!-- Start Fixed Background IMG -->
         <div class="fixed-background">
           <div class="row text-light py-5">
             <div class="col-12 text-center">
@@ -161,7 +174,9 @@
           </div>
         </div>
 
-        
+        <!-- End Fixed Background IMG -->
+
+        <!-- Start Sponsors -->
         <div class="container bg-light mx-0 partners justify-content-center">
           <div class="row text-center h3">
             <div class="col-md-7 my-3 justify-content-center mt-4">
@@ -263,6 +278,6 @@
         </div>
       </div>
     </div>
-
-
- <?php get_footer();?>
+    <!-- End Sponsors -->
+   
+   <?php get_footer(); ?>

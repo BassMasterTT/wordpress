@@ -1,5 +1,4 @@
-
-    <footer>
+<footer>
       <div
         class="container-fluid mt-3 mb-0 bg-dark justify-content-center pb-3 britcham_footer text-dark"
       >
@@ -169,4 +168,3 @@
         </div>
       </div>
     </footer>
-    

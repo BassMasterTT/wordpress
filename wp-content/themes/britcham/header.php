@@ -10,27 +10,28 @@
     <title>Britcham | Macao</title>
     <link rel="shortcut icon" href="img/logo-bbam.png" />
     <!-- Bootstrap 4.5 CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
     <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <?php wp_head(); ?>
     <!-- Google Fonts -->
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
       rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
+    /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
-    />
-    <link
+    /> -->
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
-    />
+    /> -->
   </head>
   <body>
     <a name="top"></a>
-
+    <!-- Top Bar -->
     <div class="top-bar pt-0 mt-0">
       <div class="container">
         <div class="row">
@@ -64,10 +65,15 @@
             </a>
           </div>
 
+          <!-- <p></p><a href="tel:+85387989697">Call us at (853) 8798 9697</a></p> -->
+          <!-- <div class="text-right"> -->
+          <!-- </div> -->
         </div>
       </div>
     </div>
-   
+    <!-- End Top Bar -->
+
+    <!-- Navigation -->
     <nav class="navbar bg-light navbar-light navbar-expand-lg">
       <div class="container">
         <a href="index.html" class="navbar-brand"
@@ -104,4 +110,4 @@
         </div>
       </div>
     </nav>
-    
+    <!-- End Navigation -->
